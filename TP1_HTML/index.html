@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico 1</title>
+    <style>
+        table{
+            width: 20%;
+            border-collapse: separate ;
+            border-spacing: 2px;
+        }
+        th, td{
+            border: 2px double black;
+            padding: 8px;
+            text-align: center;            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1><b>Encabezado Principal</b></h1>
+        <nav>
+            <ul>
+                <li><a href="#Estructura">ir a Estructura</a></li>
+                <li><a href="#Encabezados">ir a Encabezados</a></li>
+                <li><a href="#Division y Agrupacion de Contenido">ir a Division y Agrupacion de Contenido</a></li>
+                <li><a href="#Enlaces y Listas">ir a Enlaces y Listas</a></li>
+                <li><a href="#Elementos Multimedia">ir a Elementos Multimedia</a></li>
+                <li><a href="#Tablas">ir a Tablas</a></li>
+                <li><a href="#Formularios">ir a Formularios</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Punto 1 -->
+    <div>
+        <h2 id="Estructura">
+            <b>1.Estructura Basica del Documento HTML</b> 
+        </h2>
+        <p>Este documento HTML tiene una estructura basica que incluye la declaracion de DOCTYPE, etiquetas de metadatos y un titulo.</p>
+    </div>
+    <!-- Punto 2 -->
+    <div>
+        <h2 id="#Encabezados"><b>2.Encabezados y Propiedades del texto</b></h2>
+    </div>
+    <div>
+        <h2>
+            <strong>Encabezado y Propiedades del texto</strong>
+        </h2>
+        <h3>
+            <em>Encabezado y Propiedades del texto</em>
+        </h3>
+        <h4>
+            <mark>Encabezado y Propiedades del texto</mark>
+        </h4>
+        <h5>
+            <b><em>Encabezado y Propiedades del texto</em></b>
+        </h5>
+        <h6>
+            <em><mark>Encabezado y Propiedades del texto</mark></em>
+        </h6>
+    </div>
+    <!-- Punto 3 -->
+    <div>
+        <h2 id = "Division y Agrupacion de Contenido">3.Division y Agrupacion de Contenido</h2>
+    </div>
+    <div>
+        <h3><b>Seccion 1</b></h3>
+        <p>
+            Contenido de una seccion agrupada en un div.
+        </p>
+    </div>
+    <div>
+        <h3><b>Seccion 2</b></h3>
+        <p>
+            Contenido de una seccion agrupada en un div.
+        </p>
+    </div>
+    <!-- Punto 4 -->
+    <div>
+        <h2 id = "Enlaces y Listas"><b>4.Enlaces y Listas</b></h2>
+        <nav>
+            <p>Visita nuestro <a href="https://www.instagram.com/"> sitio web</a> para mas informacion</p>
+        </nav>
+    </div>
+    <div>
+        <p>Enlaces internos: </p>
+        <nav>
+            <ul>
+                <li><a href="#Estructura">ir a Estructura</a></li>
+                <li><a href="#Multimedia">ir a Multimedia</a></li>
+                <li><a href="#Formulario">ir a Formulario</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <p>Lista desordenada:</p>
+        <ul>
+            <li>Primer item de la lista desordenada</li>
+            <li>Segundo item de la lista desordenada</li>
+        </ul>
+    </div>
+    <div>
+        <p>Lista ordenada:</p>
+        <ol>
+            <li>Primer item de la lista ordenada</li>
+            <li>Segundo item de la lista ordenada</li>
+        </ol>
+    </div>
+    <!-- Punto 5 -->
+    <div>
+        <h2 id = "Elementos Multimedia"><b>5.Elementos Multimedia</b></h2>
+        <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" alt="Elemento Multimedia"
+        width="200ox"
+        height="200ox">
+    </div>
+    <div>
+        <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" width="200px" height="200px"></video>
+    </div>
+    <div>
+        <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls ></audio>
+    </div>
+    <!-- Punto 6 -->
+    <div>
+        <h2 id = "Tablas"><b>6.Tablas</b></h2>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th><b>Columna 1</b></th>
+                    <th><b>Columna 2</b></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+                <tr>
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </div>
+    <br>
+    <!-- Punto 7 -->
+    <div>
+        <h2 id="Formularios">7.Formularios</h2>
+        <form>
+            <div>
+                <label>Nombre:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email">
+            </div>
+            <div>
+                <label>Mensaje:</label>
+                <textarea></textarea>
+                <button>Enviar</button>
+            </div>
+    
+        </form>
+    </div>
+
+</body>
+</html>

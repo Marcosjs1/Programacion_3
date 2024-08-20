@@ -1,0 +1,230 @@
+.contenedor{
+    border-color: black;
+    padding: 2vh; 
+    background-color: white;
+    
+}
+.Seccion1{
+    border-color: black ;
+    background-color: white;
+    border-radius: 0.4rem;
+    border: 1px solid
+}
+.titulo_S1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 95%;     
+    border-bottom: 1px solid black; 
+    margin-left: 2%;
+    padding-bottom: 10px;
+    
+}
+.parrafo_S1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+    margin-left: 2%;
+}
+.bloque_S1{
+    position: relative;
+    background-color: rgb(228, 232, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 10px;
+    margin-right: 5vh;
+    margin-left: 4vh;
+}
+.Seccion2{
+    border-color: black ;
+    background-color: white;
+    border-radius: 0.4rem;
+    border: 1px solid
+}
+.parrafo{
+    border-color: black;
+    background-color: rgb(46, 45, 45);
+    color :aliceblue;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1vh;
+}
+.bloque{
+    background-color: rgb(174, 167, 157);
+    border-radius: 0.4rem;
+    padding: 2vh;
+}
+
+.titulo_S2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 95%;     
+    border-bottom: 1px solid black; 
+    margin-left: 2%;
+    padding-bottom: 10px;
+    
+}
+
+.box{
+    border: 1px solid black;
+    font-size: 2vh;
+    width:  70vw;
+    padding: 20px;
+    border-radius: 0.4rem;
+    box-shadow: 3px 5px 10px -4px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin-left: 2%;
+}
+.box2{
+    background-color: rgb(242, 198, 166);
+    border: 4px solid rgb(57, 55, 55);
+    margin-bottom: 1%;
+}
+.Seccion3{
+    border-color: black ;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0.4rem;
+    border: 1px solid
+}
+.titulo_S3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 95%;     
+    border-bottom: 1px solid black; 
+    margin-left: 0.5%;
+    padding-bottom: 10px;
+}
+.relativo{
+    border: 1px;
+    background-color: rgb(222, 249, 255);
+    position: relative;
+    margin-left: 0.5%;
+    font-size: 1.5vh;
+    width: 62vw;
+    padding: 13px;
+    bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.absoluta{
+    border: 1px;
+    color: white;
+    background-color: rgb(3, 86, 86);
+    border-radius: 0.3rem;
+    position: absolute;
+    font-size: 1.5vh;
+    padding: 13px;
+    left: 32vw;
+    
+}
+.Seccion4{
+    border-color: black ;
+    background-color: white;
+    border-radius: 0.4rem;
+    border: 1px solid
+}
+.titulo_S4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 95%;     
+    border-bottom: 1px solid black; 
+    margin-left: 2%;
+    padding-bottom: 10px;
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 1;
+    justify-items: center;
+    align-items: center;
+    margin-left: 2.5vw;
+    margin-bottom: 2.5vh;
+
+
+}
+.grid-container div{
+    background-color: rgb(140, 140, 234);
+    border: 1px;
+    border-radius: 0.4rem;
+    justify-self: center;
+    align-items: center;
+    padding: 5px;
+    padding-left: 8.5vw;
+    padding-right: 8.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.elemento1{
+    color: white;
+}
+.elemento2{
+    color: white;
+}
+.elemento3{
+    color: white;
+}
+.elemento4{
+    color: white;
+}
+.Seccion5{
+    border-color: black ;
+    background-color: white;
+    border-radius: 0.4rem;
+    border: 1px solid
+}
+.titulo_S5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 95%;     
+    border-bottom: 1px solid black; 
+    margin-left: 2%;
+    padding-bottom: 20px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    background-color: blue;
+    transition: 0.2s;
+}
+.box3:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.circulo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    background-color: green;
+    animation: mover 3s infinite;
+}
+@keyframes mover{
+0%{
+    transform:translate(0)
+    }
+    50%{
+        transform:translate(200px)
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+@media screen and ( max-width: 768px) {
+    .cuerpo{
+        background-color: rgb(67, 67, 84);
+    }
+    .parrafo{
+        border-color: black;
+        background-color: rgb(46, 45, 45);
+        color :aliceblue;
+        text-align: center;
+        padding: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 0.8vh;
+    }
+    .contenedor{
+        border-color: black;
+        padding: 2vh; 
+        background-color: rgb(202, 206, 238);
+    
+    }
+}
